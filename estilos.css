@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f3f3f3;
+}
+
+.container{
+    text-align: right;
+    background: #262626;
+    color: #fff;
+}
+
+li{
+    list-style-type: none;
+    padding: 25px;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: red;
+}
+
+.container li:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+#saludo {
+    text-align: center;
+    color: wheat
+}
+
+#saludo:hover{
+    background: white;
+    color: green;
+    transition: background 1s;
+}
+
+#titulo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background: aquamarine;
+    padding: 20px
+}
+
+#que_es {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    padding: 5px;
+}
+
+#parrafo{
+    text-align: justify;
+    margin: 1px;
+    padding: 15px;
+}
